@@ -6,4 +6,4 @@ class ProjectSerializer(serializers.ModelSerializer):
     model = Project
     # fields = '__all__' TODO: below other form
     fields = ('id','title','description','technology','created_at')
-    read_only_fields = ('created_at',)
+    read_only_fields = ('created_at',)# end with comma 
